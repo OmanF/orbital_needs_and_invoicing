@@ -1,0 +1,6 @@
+STORAGE: NONE
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    FSharp.Core (10.1.301) - restriction: >= net6.0
+    fshttp (15.0.3)
+      FSharp.Core (>= 5.0.2) - restriction: >= net6.0

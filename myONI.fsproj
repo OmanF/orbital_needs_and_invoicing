@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Domain/Intent.fs" />
+    <Compile Include="Domain/Sponsors.fs" />
+    <Compile Include="Domain/Profession.fs" />
+    <Compile Include="Domain/Measures.fs" />
+    <Compile Include="Domain/Cargo.fs" />
+    <Compile Include="Domain/Spaceships.fs" />
+    <Compile Include="Domain/Docks.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+  <Import Project=".paket\Paket.Restore.targets" />
+</Project>
